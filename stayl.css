@@ -1,0 +1,372 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+    background-color: rgb(212, 201, 201);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+    height: 100vh;
+    background: url(https://idei.club/uploads/posts/2021-03/1616097809_12-p-dizain-nomera-v-otele-14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.596);
+    font-size: 1.2rem;
+    justify-content: space-between;
+    padding: 25px 0px 25px 900px;
+    border-bottom: 1px solid cornflowerblue;
+    margin: 0 auto;
+}
+.logo{
+    font-size: 1em;
+    color: rgb(0, 191, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.A{
+    font-size: 1.5em;
+}
+.social_network{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 89vh;
+    background-color: rgba(255, 255, 255, 0.596);;
+    font-size: 1.2rem;
+    padding: 280px 35px 0px 15px;
+    border-right: 1px solid cornflowerblue;
+}
+
+.header_cont{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background-color: rgba(26, 70, 109, 0.355);
+    text-align: center;
+}
+.title{
+    display: flex;
+    font-size: 2em;
+    margin-left: 13em;
+    margin-top: 3em;
+    padding: 80px 200px 80px 200px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(43, 131, 226);
+}
+.btn{
+    background-color: rgba(255, 255, 255, 0.319);
+    padding: 1em 2em;
+    border-radius: 100px;
+    border-color:transparent ;
+    color: #fff;
+    width: 10rem;
+    margin-top: 2rem;
+    margin-left: 20rem;
+}
+.btn:hover{
+    background-image: linear-gradient(44deg, rgba(70, 89, 255, 0.764), rgba(33, 41, 248, 0.769), rgba(101, 110, 248, 0.681),rgb(255, 255, 255)) ;
+    border: 3px solid cornflowerblue;
+}
+
+.ourrooms{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 3rem;
+}
+
+.sixs{
+    display: grid;
+    margin-top: 100px;
+    justify-content: center;
+    grid-template-columns: repeat(3 , 300px);
+    grid-template-rows: repeat(2 , 200px);
+    gap: 20px;
+}
+
+.s1{
+    width: 300px;
+    height: 200px;
+    background: url(https://a.loveholidays.com/images/holidays/be3a2ccb8dca5d066de5b6082e6c36787694b3e6/holidays/holland/amsterdam/westcord-art-hotel-amsterdam-4-0.jpg?auto=avif%2Cwebp&quality=45&dpr=2&optimize=high&fit=crop&width=840&height=577);
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.bestroom{
+    display: grid;
+    position: relative;
+}
+
+.photo{
+    width: 800px;
+    height: 450px;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 500px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbCrdJWRLOfRiQbEpEcjzEGgcasfLGt7O5j3gowYjiGCkFRcIGVy8WRVKjoVP7updHrO0&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.explore{
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 350px;
+    margin-left: 1100px;
+    margin-top: 250px;
+}
+
+.your{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.lorem{
+    margin-top: 110px;
+    display: flex;
+    padding: 50px;
+}
+
+.services{
+    margin-top: 900px;
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 500px;
+}
+
+.our2{
+    display: flex;
+    margin-left: 750px;
+    margin-top: 80px;
+    font-size: 4rem;
+}
+
+.tri{
+    display: grid;
+    grid-template-columns: repeat(3 , 300px);
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: -600px;
+}
+
+.i2{
+    font-size: 80px;
+    margin-left: 110px;
+}
+
+.q1{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+.find{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(63, 57, 255);
+    display: flex;
+}
+
+.foto1{
+    flex: 0.7;
+    background: url(https://media-cdn.holidaycheck.com/w_768,h_432,c_fill,q_auto,f_auto/ugc/images/62f9848b-396b-352e-a843-b4dfb9577e1b);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text{
+    flex: 0.3;
+    padding: 50px;
+}
+
+.here{
+    display: flex;
+    font-size: 4rem;
+}
+
+.w1{
+    display: flex;
+    font-size: 25px;
+}
+
+.read{
+    background-color: rgba(255, 255, 255, 0.319);
+    padding: 1em 2em;
+    border-radius: 100px;
+    border-color:transparent ;
+    color: #fff;
+    width: 10rem;
+    margin-top: 100px;
+}
+.reads:hover{
+    background-image: linear-gradient(44deg, rgba(70, 89, 255, 0.764), rgba(33, 41, 248, 0.769), rgba(101, 110, 248, 0.681),rgb(255, 255, 255)) ;
+    border: 3px solid cornflowerblue;
+}
+
+.from{
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 500px);
+}
+
+.from1{
+    display: flex;
+    margin-top: 50px;
+}
+
+.e1{
+    display: flex;
+    margin-top: -100px;
+}
+
+.q2{
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+
+.foto3{
+    display: flex;
+    background: url(data:image/jpeg;base64,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);
+    border-radius: 90%;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+}
+
+.keep{
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(44deg, rgba(21, 41, 219, 0.764), rgba(64, 70, 243, 0.769), rgba(54, 209, 33, 0.681),rgb(72, 255, 0)) ;
+}
+
+.clam{
+    display: flex;
+    font-size: 4rem;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+.pley{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    border-radius: 90%;
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+.news{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    background-color: #fff;
+}
+
+.Latest{
+    display: grid;
+    margin-left: 800px;
+    margin-top: 100px;
+    font-size: 3rem;
+}
+
+.sixs1{
+    display: grid;
+    margin-top: 100px;
+    justify-content: center;
+    grid-template-columns: repeat(3 , 300px);
+    grid-template-rows: repeat(2 , 200px);
+    gap: 20px;
+}
+
+.s2{
+    width: 300px;
+    height: 200px;
+    background: url(https://a.loveholidays.com/images/holidays/be3a2ccb8dca5d066de5b6082e6c36787694b3e6/holidays/holland/amsterdam/westcord-art-hotel-amsterdam-4-0.jpg?auto=avif%2Cwebp&quality=45&dpr=2&optimize=high&fit=crop&width=840&height=577);
+    background-size: cover;
+    border-radius: 10%;
+}
+
+footer{
+    width: 100%;
+    height: max-content;
+    background-color: #1a1c1df9;
+    margin: 0 auto;
+}
+.footer_naw{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    background-color: rgb(23, 22, 22);
+    font-size: 1.2rem;
+    justify-content: space-between;
+    padding: 40px 300px 40px 200px;
+    border-bottom: 1px solid cornflowerblue;
+    color: aliceblue;
+
+}
+.footer_content{
+    display: flex;
+    justify-content: flex-start;
+    width: 1500px;
+    height: max-content;
+    padding: 10rem 9rem;
+    gap: 1rem;
+    margin: 0 auto;
+}
+.footer_tytle >p{
+    margin-top: 0.5rem;
+}
+.footer_tytle >a{
+    margin-top: 0.5rem;
+}
+.footer_tytle{
+    display: flex;
+    flex-direction: column;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.tytle_two{
+    width: 20rem ;
+}
+.tytle_one{
+    width: 20rem ;
+}
+.input{
+    margin-top: 1rem;
+    height: 2rem;
+}
